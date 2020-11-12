@@ -1,0 +1,15 @@
+import matplotlib.pyplot as pp
+
+squares = [1,4,9,16,25]
+
+# pp.scatter(input('enter ur digit\n'),input('2nd digit\n'),s= 200)
+
+pp.plot(squares, linewidth= 5)
+
+pp.title("square numbers", fontsize= 24)
+
+pp.xlabel("value", fontsize= 14)
+pp.ylabel ("square of value", fontsize= 14)
+
+pp.tick_params(axis='both', which= 'major',  labelsize= 14)
+pp.show()
